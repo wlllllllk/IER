@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="primaryColor" format="color"/>
+    <attr name="bgColor" format="color"/>
+    <attr name="textColor" format="color"/>
+    <attr name="hintColor" format="color"/>
+    <attr name="button_income" format="reference"/>
+    <attr name="button_expense" format="reference"/>
+    <attr name="metaTextColor" format="color"/>
+</resources>

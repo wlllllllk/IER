@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">IER</string>
+    <string name="income">Income</string>
+    <string name="expense">Expenses</string>
+    <string name="gm">Good Morning!</string>
+    <string name="what">What would you like to record?</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+
+    <string name="test">Check Connection</string>
+
+    <string name="other">Other</string>
+    <string name="expense_title1">Category</string>
+    <string name="cat1">Entertainment</string>
+    <string name="cat2">Food</string>
+    <string name="cat3">Groceries</string>
+    <string name="cat4">Octopus Card Top-up</string>
+    <string name="cat5">Online Shopping</string>
+    <string name="cat6">Subscription Fees</string>
+    <string name="cat7">Transportation</string>
+
+    <string-array name="cat">
+        <item>Body Care</item>
+        <item>Entertainment</item>
+        <item>Food</item>
+        <item>Groceries</item>
+        <item>Necessities</item>
+        <item>Online Shopping</item>
+        <item>Subscription Fees</item>
+        <item>Transportation</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="expense_title2">Description</string>
+    <string name="expense_title3">Amount</string>
+    <string name="expense_title4">Currency</string>
+    <string name="expense_title5">Amount (in HKD)</string>
+    <string name="cur1">HKD</string>
+    <string name="cur2">TWD</string>
+    <string name="cur3">USD</string>
+    <string name="cur4">JPY</string>
+
+    <string-array name="cur">
+        <item>HKD</item>
+        <item>TWD</item>
+        <item>USD</item>
+        <item>JPY</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="expense_title6">Payment Method</string>
+    <string name="pay1">Cash</string>
+    <string name="pay2">Tap &amp; Go</string>
+    <string name="pay3">Octopus Card</string>
+    <string name="pay4">HSBC Credit Card</string>
+    <string name="pay5">BEA Credit Card</string>
+    <string name="pay6">Hang Seng Bank</string>
+
+    <string-array name="pay">
+        <item>Cash</item>
+        <item>FPS</item>
+        <item>Octopus Card</item>
+        <item>Tap &amp; Go</item>
+        <item>Aeon WAKUWAKU Card</item>
+        <item>BEA PolyU Card</item>
+        <item>Citi HKTVmall Card</item>
+        <item>Hang Seng CUHK Card</item>
+        <item>HSBC Gold Card</item>
+        <item>MOX</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="expense_title7">More</string>
+
+    <string name="income_title1">Category</string>
+    <string name="income_cat1">Government</string>
+    <string name="income_cat2">Repayment</string>
+    <string name="income_cat3">Scholarships</string>
+
+    <string name="optional">Optional</string>
+    <string name="required">Required</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="url">https://script.google.com/macros/s/AKfycbxQf-f6OzIF1U_V9c4iVRvX2Mk-AYGJgruBMCPYJeVTK1zHsTIHtqiSAW3Tajidn4NDNg/exec</string>
+</resources>

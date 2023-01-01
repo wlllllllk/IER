@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_income_catt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="@string/expense_title1"
+                        android:textColor="#3E3E3E"
+                        android:textSize="20sp" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup_income_cat"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_cat1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/income_cat1" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_cat2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/income_cat2" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_cat3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/income_cat3" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_cato"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/other" />
+
+                        <EditText
+                            android:id="@+id/editText_income_category"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:focusableInTouchMode="true"
+                            android:hint="@string/required"
+                            android:inputType="textPersonName" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/textView_income_descriptiont"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="@string/expense_title2"
+                        android:textColor="#3E3E3E"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/editText_income_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/optional"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/textView_income_amountt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="@string/expense_title3"
+                        android:textColor="#3E3E3E"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/editText_income_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/required"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView_income_curt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="@string/expense_title4"
+                        android:textColor="#3E3E3E"
+                        android:textSize="20sp" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup_income_cur"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_cur1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cur1" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_cur2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cur2" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_cur3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cur3" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_cur4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cur4" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_curo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/other" />
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/editText_income_currency"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/required"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/textView_income_payt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="@string/expense_title5"
+                        android:textColor="#3E3E3E"
+                        android:textSize="20sp" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup_income_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_pay1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pay1" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_pay2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pay2" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_pay3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pay3" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_pay4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pay6" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton_income_payo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/other" />
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/editText_income_payment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/required"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/textView_income_moret"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="@string/expense_title6"
+                        android:textColor="#3E3E3E"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/editText_income_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="start|top"
+                        android:hint="@string/optional"
+                        android:inputType="textMultiLine" />
+
+                    <Button
+                        android:id="@+id/button_income_submit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/button_rounded"
+                        android:text="@string/submit"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

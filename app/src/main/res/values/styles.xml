@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme_backup" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">?attr/textColor</item>
+
+        <item name="colorPrimary">?attr/primaryColor</item>
+        <item name="colorPrimaryDark">?attr/primaryColor</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:textColor">?attr/textColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LightTheme" parent="AppTheme">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="textColor">#000000</item>
+        <item name="hintColor">#858585</item>
+        <item name="button_income">@drawable/button_rounded</item>
+        <item name="button_expense">@drawable/button_rounded_red</item>
+        <item name="metaTextColor">#606060</item>
+        <item name="bgColor">#ffffff</item>
+    </style>
+
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="textColor">#ffffff</item>
+        <item name="hintColor">#858585</item>
+        <item name="button_income">@drawable/button_rounded_dark</item>
+        <item name="button_expense">@drawable/button_rounded_red_dark</item>
+        <item name="metaTextColor">#aeaeae</item>
+        <item name="bgColor">#000000</item>
+    </style>
+
+    <style name="font_title">
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textColor">?attr/textColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="font_option">
+        <item name="android:textColor">?attr/textColor</item>
+        <item name="android:textColorHint">?attr/hintColor</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

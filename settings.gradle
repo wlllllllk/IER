@@ -1,0 +1,2 @@
+rootProject.name='IER'
+include ':app'
