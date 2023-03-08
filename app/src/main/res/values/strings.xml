@@ -21,6 +21,7 @@
 
     <string-array name="cat">
         <item>Body Care</item>
+        <item>Clothing</item>>
         <item>Entertainment</item>
         <item>Food</item>
         <item>Groceries</item>
@@ -60,6 +61,7 @@
         <item>Cash</item>
         <item>FPS</item>
         <item>Octopus Card</item>
+        <item>PayMe</item>
         <item>Tap &amp; Go</item>
         <item>Aeon WAKUWAKU Card</item>
         <item>BEA PolyU Card</item>
