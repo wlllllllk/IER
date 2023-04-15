@@ -3,7 +3,9 @@ package com.example.ier;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -104,7 +106,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     @Override
                     public void onResponse(String response) {
                         loading.dismiss();
-                        Toast.makeText(getApplicationContext(), response, Toast.LENGTH_LONG).show();
+//                        Toast.makeText(getApplicationContext(), response, Toast.LENGTH_LONG).show();
+                        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+
+                        builder.setMessage(response.toString())
+                                .setTitle("Last Record");
+
+                        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                // User clicked OK button
+                                dialog.dismiss();
+                            }
+                        });
+
+                        AlertDialog dialog = builder.create();
+                        dialog.show();
                     }
                 },
                 new Response.ErrorListener() {
